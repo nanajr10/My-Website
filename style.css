@@ -1,0 +1,69 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    background-color: grey; 
+    color: white; 
+}
+
+nav {
+    background-color: #333;
+    color: #fff; 
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+nav .items {
+    display: inline-block;
+    margin: 0 15px;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: rgb(29, 15, 15); 
+    padding: 5px; 
+    border-radius: 5px;
+}
+
+.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: yellow; 
+}
+
+p {
+    line-height: 1.6;
+    color: white;
+    margin: 0 20px;
+}
+
+
+
+ul li {
+    margin: 10px 0;
+    color: white; 
+}
+
+hr {
+    border: 1px solid #ccc; 
+    margin: 20px 0;
+}
+
+html{
+    scroll-behavior: smooth;
+    }
